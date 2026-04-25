@@ -41,10 +41,10 @@ Analizar y procesar datos de tráfico de red en entornos IoT para identificar pa
 
 <h2>Parte 1 – Desarrollo</h2>
 
-<h3>Selección del dataset</h3>
+<h3>Selección del dataset - Network IoT Dataset</h3>
 <ul>
   
-  <li>Código fuente del API desarrollado con FastAPI</li>
+  <li>URL: https://www.kaggle.com/datasets/amineipad/ioittt?resource=download</li>
   <li>Interfaz web basada en HTML que consume el API y permite la búsqueda de establecimientos desde un mapa interactivo</li>
 
 </ul>
