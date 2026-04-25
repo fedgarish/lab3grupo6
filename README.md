@@ -34,12 +34,12 @@ Este proyecto no solo busca aplicar técnicas de análisis de datos, sino tambi�
 
 <h2>Objetivo</h2>
 <p>
-Diseñar, construir y desplegar un API funcional, aplicando buenas prácticas de desarrollo, versionamiento, pruebas y despliegue local usando FastAPI.
+Analizar y procesar datos de tráfico de red en entornos IoT para identificar patrones de comunicación, diferenciar comportamientos normales de anómalos y generar insights que contribuyan a la comprensión y detección de posibles amenazas en sistemas interconectados.
 </p>
 
 <hr>
 
-<h2>Parte 1 – Construcción del API</h2>
+<h2>Parte 1 – Selección dataSet</h2>
 
 <h3>Repositorio del proyecto</h3>
 <ul>
