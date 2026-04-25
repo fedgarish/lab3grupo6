@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>MCIB-B</b><br>
-  Trabajo grupal enfocado en el proceso de web scraping en entorno local
+  Trabajo grupal enfocado en el tratamiento de datos, análisis exploratorio de datos(EDA) y visualización de datos.
 </p>
 <h2>Integrantes</h2>
 
