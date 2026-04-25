@@ -131,18 +131,18 @@ El modelo permitió identificar ataques con un alto nivel de precisión, demostr
 <h3>Evidencia</h3>
 
 <p align="center">
-  <img src="evidencias/distribucion_ataques.png" width="500">
-  <img src="evidencias/boxplot_ransomware.png" width="500">
+  <img src="Evidencias/distribucion_ataques.png" width="500">
+  <img src="Evidencias/boxplot_ransomware.png" width="500">
 </p>
 
 <p align="center">
-  <img src="evidencias/pie_estados.png" width="500">
-  <img src="evidencias/anomalias_bytes.png" width="500">
+  <img src="Evidencias/pie_estados.png" width="500">
+  <img src="Evidencias/anomalias_bytes.png" width="500">
 </p>
 
 <p align="center">
-  <img src="evidencias/matriz_confusion.png" width="500">
-  <img src="evidencias/importancia_variables.png" width="500">
+  <img src="Evidencias/matriz_confusion.png" width="500">
+  <img src="Evidencias/importancia_variables.png" width="500">
 </p>
 
 <hr>
