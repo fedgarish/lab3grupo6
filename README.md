@@ -19,13 +19,17 @@
 
 <h2>Introducción</h2>
 <p>
-En el presente proyecto se desarrolló una API funcional utilizando FastAPI, orientada a la consulta de establecimientos cercanos como bancos, farmacias, restaurantes y hospitales a partir de una ubicación geográfica seleccionada por el usuario. La solución combina el consumo de datos externos, el procesamiento de información y su exposición mediante servicios web, aplicando buenas prácticas de desarrollo, versionamiento y despliegue en entorno local.
-  
-La API se complementa con una interfaz web interactiva, accesible desde localhost, que integra un mapa dinámico donde el usuario puede seleccionar una ubicación específica y definir parámetros de búsqueda como el radio y el tipo de establecimiento. A partir de estos parámetros, la aplicación consume los endpoints del API y devuelve los resultados de forma estructurada y visual.
+En el presente proyecto se desarrolla un análisis integral de datos utilizando un dataset seleccionado de la plataforma Kaggle, específicamente el conjunto de datos IoT Traffic Traces (IoITTT). La elección de este dataset responde a su relevancia en el contexto actual de crecimiento del Internet de las Cosas (IoT), así como a su potencial para explorar patrones de comportamiento en redes, detectar anomalías y extraer información valiosa a partir de grandes volúmenes de datos.
 
-Como parte del flujo de trabajo, se realizó un proceso previo de recolección y tratamiento de datos mediante web scraping, cuyos resultados se almacenan en formatos estándar como CSV y Excel, permitiendo su reutilización y análisis. El proyecto se encuentra organizado en un repositorio que incluye el código fuente del API, la interfaz web, los notebooks de pruebas, los archivos de datos procesados y la documentación correspondiente.
+El proceso inicia con la selección del dataset, justificando su pertinencia en función de los objetivos analíticos del grupo. Posteriormente, se lleva a cabo una etapa de procesamiento de datos que incluye limpieza, transformación y adecuación de las variables, garantizando así la calidad y consistencia de la información para su análisis.
 
-Finalmente, se utilizó GitHub como sistema de control de versiones y colaboración, registrando los cambios realizados durante el desarrollo y asegurando la trazabilidad del proyecto. Esta implementación demuestra un flujo completo que abarca desde la obtención de datos hasta su exposición mediante una API y su consumo a través de una aplicación web funcional.
+Una vez preparados los datos, se realiza un Análisis Exploratorio de Datos (EDA), con el fin de identificar patrones, tendencias, valores atípicos y relaciones entre variables. Este análisis permite comprender mejor la estructura del dataset y generar hipótesis relevantes.
+
+Adicionalmente, se desarrollan visualizaciones utilizando herramientas como Matplotlib, Seaborn y Plotly, con el propósito de representar la información de manera clara, intuitiva y visualmente atractiva, facilitando la interpretación de los resultados.
+
+Todo el proceso es documentado en un repositorio de GitHub, el cual incluye un archivo README.md donde se detalla el propósito del dataset, los pasos de limpieza y transformación realizados, así como los principales hallazgos e insights obtenidos del análisis.
+
+Finalmente, este proyecto no solo busca aplicar técnicas de análisis de datos, sino también fortalecer habilidades en el manejo de datos reales, la comunicación de resultados y el trabajo colaborativo mediante herramientas de desarrollo.
 </p>
 
 <hr>
