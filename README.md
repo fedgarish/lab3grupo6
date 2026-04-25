@@ -146,7 +146,92 @@ El modelo permitió identificar ataques con un alto nivel de precisión, demostr
 </p>
 
 <hr>
+<hr>
 
+<h3>Interpretación de Resultados</h3>
+
+<h4>1. Distribución de tipos de tráfico</h4>
+<p>
+El gráfico de distribución muestra que el tráfico normal representa la mayor proporción del dataset, seguido por diferentes tipos de ataques como DDoS, DoS, ransomware e inyección. 
+</p>
+<p>
+Esto evidencia que el dataset está relativamente balanceado para el entrenamiento de modelos de detección, permitiendo identificar múltiples tipos de amenazas sin sesgos extremos hacia una sola clase.
+</p>
+
+<hr>
+
+<h4>2. Anomalías en el volumen de datos (Scatter Plot)</h4>
+<p>
+El análisis de dispersión entre <b>src_bytes</b> y <b>dst_bytes</b> revela la presencia de clústeres diferenciados entre tráfico normal y malicioso.
+</p>
+<p>
+Los ataques tienden a concentrarse en regiones con volúmenes atípicos de datos, mostrando patrones claramente separados del comportamiento normal. Esto confirma que el volumen de tráfico es un indicador clave para la detección de anomalías.
+</p>
+
+<hr>
+
+<h4>3. Comparación de volumen: Ransomware vs Tráfico Normal (Boxplot)</h4>
+<p>
+El boxplot evidencia que el tráfico asociado a ransomware presenta valores significativamente más altos de <b>src_bytes</b> en comparación con el tráfico normal.
+</p>
+<p>
+Esto sugiere que los ataques de ransomware pueden involucrar procesos de exfiltración de datos o transferencias anómalas antes del cifrado, lo que los convierte en detectables mediante análisis de volumen.
+</p>
+
+<hr>
+
+<h4>4. Estados de conexión en ataques de Ransomware</h4>
+<p>
+El gráfico de pastel muestra que el estado <b>OTH</b> domina ampliamente en el tráfico de ransomware, seguido por estados como <b>S0</b>, <b>SH</b> y <b>RSTRH</b>.
+</p>
+<p>
+Esto indica que los ataques generan conexiones persistentes o no convencionales, lo cual es característico de comunicaciones con servidores de comando y control (C2).
+</p>
+
+<hr>
+
+<h4>5. Importancia de variables (Feature Importance)</h4>
+<p>
+El modelo de Random Forest identificó que variables como <b>src_pkts</b>, <b>src_ip_bytes</b> y <b>dns_query</b> son las más relevantes para la detección de ataques.
+</p>
+<p>
+Esto demuestra que tanto el volumen de tráfico como el comportamiento de las consultas DNS son factores críticos en la identificación de actividades maliciosas.
+</p>
+
+<hr>
+
+<h4>6. Evaluación del modelo (Matriz de confusión)</h4>
+<p>
+La matriz de confusión muestra un alto nivel de precisión en la clasificación, con una baja cantidad de falsos positivos y falsos negativos.
+</p>
+
+<ul>
+  <li>Alta detección correcta de tráfico normal</li>
+  <li>Alta detección correcta de ataques</li>
+  <li>Bajo nivel de errores de clasificación</li>
+</ul>
+
+<p>
+Esto confirma que el modelo es efectivo para su uso en sistemas de detección de intrusos (IDS), con un buen equilibrio entre precisión y capacidad de generalización.
+</p>
+
+<hr>
+
+<h3>Conclusión Analítica</h3>
+
+<p>
+El análisis realizado demuestra que el tráfico malicioso en entornos IoT presenta patrones claramente diferenciables en términos de volumen, comportamiento de conexión y uso de protocolos.
+</p>
+
+<p>
+Las variables relacionadas con el volumen de datos y la duración de las conexiones son los indicadores más relevantes para la detección de amenazas, lo que permite diseñar sistemas de seguridad eficientes incluso en dispositivos con recursos limitados.
+</p>
+
+<p>
+Finalmente, la implementación de modelos de Machine Learning como Random Forest confirma que es posible automatizar la detección de intrusiones con alta precisión, contribuyendo al desarrollo de soluciones de ciberseguridad modernas y escalables.
+</p>
+
+<hr>
 <h3>Comentario</h3>
 
 <p>
@@ -170,4 +255,3 @@ Adicionalmente, la implementación de un modelo de Machine Learning demuestra c�
 </ul>
 
 <hr>
-🔥 IMPORTANTE (AJ
