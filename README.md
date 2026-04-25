@@ -39,19 +39,14 @@ Analizar y procesar datos de tráfico de red en entornos IoT para identificar pa
 
 <hr>
 
-<h2>Parte 1 – Selección dataSet</h2>
+<h2>Parte 1 – Desarrollo</h2>
 
-<h3>Repositorio del proyecto</h3>
+<h3>Selección del dataset</h3>
 <ul>
   
   <li>Código fuente del API desarrollado con FastAPI</li>
   <li>Interfaz web basada en HTML que consume el API y permite la búsqueda de establecimientos desde un mapa interactivo</li>
-  <li>Archivos estáticos y plantillas (static/, templates/)</li>
-  <li>Archivo app.py con la lógica principal del servicio</li>
-  <li>Archivo README.md con la documentación del proyecto</li>
-  <li>Carpeta Evidencias/ con capturas o pruebas del funcionamiento</li>
-  <li>Versión en formato Excel de los datos finales.</li>
-  
+
 </ul>
 
 <h3>API funcional</h3>
