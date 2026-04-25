@@ -19,17 +19,15 @@
 
 <h2>Introducción</h2>
 <p>
-En el presente proyecto se desarrolla un análisis integral de datos utilizando un dataset seleccionado de la plataforma Kaggle, específicamente el conjunto de datos IoT Traffic Traces (IoITTT). La elección de este dataset responde a su relevancia en el contexto actual de crecimiento del Internet de las Cosas (IoT), así como a su potencial para explorar patrones de comportamiento en redes, detectar anomalías y extraer información valiosa a partir de grandes volúmenes de datos.
+En el presente proyecto se desarrolla un análisis de datos a partir de un conjunto obtenido de Kaggle, el cual se enfoca en el estudio del tráfico generado en entornos de dispositivos interconectados. Este tipo de información resulta especialmente relevante en la actualidad debido al crecimiento de ecosistemas digitales donde múltiples dispositivos intercambian datos de manera constante, generando grandes volúmenes de información susceptibles de análisis.
 
-El proceso inicia con la selección del dataset, justificando su pertinencia en función de los objetivos analíticos del grupo. Posteriormente, se lleva a cabo una etapa de procesamiento de datos que incluye limpieza, transformación y adecuación de las variables, garantizando así la calidad y consistencia de la información para su análisis.
+El dataset seleccionado contiene registros estructurados de actividad en red, incluyendo características relacionadas con flujos de comunicación, protocolos y métricas de transmisión. Además, incorpora tanto comportamientos normales como eventos asociados a actividades maliciosas, lo que permite abordar problemas de clasificación y detección de anomalías en contextos reales. En particular, este tipo de datos es ampliamente utilizado en el desarrollo de sistemas de detección de intrusos y modelos de ciberseguridad basados en aprendizaje automático .
 
-Una vez preparados los datos, se realiza un Análisis Exploratorio de Datos (EDA), con el fin de identificar patrones, tendencias, valores atípicos y relaciones entre variables. Este análisis permite comprender mejor la estructura del dataset y generar hipótesis relevantes.
+A partir de este conjunto de datos, se llevó a cabo un proceso de preparación que incluyó la limpieza, transformación y adecuación de las variables, asegurando la consistencia y calidad necesarias para el análisis. Posteriormente, se realizó un Análisis Exploratorio de Datos (EDA) con el objetivo de identificar patrones de comportamiento, distribuciones relevantes y posibles irregularidades dentro del tráfico analizado.
 
-Adicionalmente, se desarrollan visualizaciones utilizando herramientas como Matplotlib, Seaborn y Plotly, con el propósito de representar la información de manera clara, intuitiva y visualmente atractiva, facilitando la interpretación de los resultados.
+Como complemento, se desarrollaron visualizaciones que permiten interpretar de forma clara las dinámicas presentes en los datos, facilitando la identificación de tendencias y relaciones entre variables. Finalmente, todo el proceso fue documentado en un repositorio de GitHub, donde se detallan los pasos realizados, los principales hallazgos y las conclusiones obtenidas.
 
-Todo el proceso es documentado en un repositorio de GitHub, el cual incluye un archivo README.md donde se detalla el propósito del dataset, los pasos de limpieza y transformación realizados, así como los principales hallazgos e insights obtenidos del análisis.
-
-Finalmente, este proyecto no solo busca aplicar técnicas de análisis de datos, sino también fortalecer habilidades en el manejo de datos reales, la comunicación de resultados y el trabajo colaborativo mediante herramientas de desarrollo.
+Este proyecto no solo busca aplicar técnicas de análisis de datos, sino también comprender cómo la información generada en entornos de red puede ser utilizada para identificar comportamientos anómalos y contribuir al desarrollo de soluciones en el ámbito de la ciberseguridad.
 </p>
 
 <hr>
