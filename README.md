@@ -242,6 +242,7 @@ El desarrollo del análisis permitió comprender la importancia del tratamiento 
 <p>
 Adicionalmente, la implementación de un modelo de Machine Learning demuestra cómo estos análisis pueden ser llevados a sistemas reales de detección de intrusiones, optimizando la seguridad en infraestructuras modernas.
 </p>
+<hr>
 <h3>Impacto en entornos reales</h3>
 
 <p>
