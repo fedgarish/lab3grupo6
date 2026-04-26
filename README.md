@@ -190,7 +190,19 @@ El predominio del estado OTH indica que los ataques utilizan conexiones no conve
 </p>
 
 <p>
-Las variables relacionadas con volumen de tráfico y comportamiento DNS son las más relevantes para la detección de ataques, lo que permite optimizar sistemas de seguridad enfocándose en pocos indicadores clave.
+El análisis de importancia de variables evidencia que los atributos más influyentes en la detección de ataques están directamente relacionados con el comportamiento del tráfico de red, destacando <b>src_pkts</b>, <b>src_ip_bytes</b> y <b>dns_query</b>.
+</p>
+
+<p>
+Esto demuestra que los ataques pueden ser identificados a partir de patrones de volumen de datos, frecuencia de paquetes y actividad de red, sin depender de información estática como direcciones IP.
+</p>
+
+<p>
+Desde una perspectiva de ciberseguridad, este resultado es especialmente relevante, ya que permite diseñar sistemas de detección de intrusos (IDS) más eficientes, utilizando un conjunto reducido de variables clave. Esto facilita su implementación en entornos IoT y dispositivos de borde (Edge), donde los recursos computacionales son limitados.
+</p>
+
+<p>
+Adicionalmente, estos hallazgos permiten establecer mecanismos de mitigación, como la creación de reglas de firewall dinámas que identifiquen y bloqueen flujos de tráfico que excedan los umbrales normales de volumen y comportamiento, mejorando la detección temprana de amenazas como ransomware.
 </p>
 
 <hr>
@@ -230,7 +242,19 @@ El desarrollo del análisis permitió comprender la importancia del tratamiento 
 <p>
 Adicionalmente, la implementación de un modelo de Machine Learning demuestra cómo estos análisis pueden ser llevados a sistemas reales de detección de intrusiones, optimizando la seguridad en infraestructuras modernas.
 </p>
+<h3>Impacto en entornos reales</h3>
 
+<p>
+Los resultados obtenidos en este análisis demuestran que es posible implementar sistemas de detección de intrusos eficientes utilizando un conjunto reducido de variables clave, lo que facilita su despliegue en entornos IoT y arquitecturas de Edge Computing.
+</p>
+
+<p>
+Esto permite detectar amenazas en tiempo real sin necesidad de infraestructuras complejas, optimizando recursos y mejorando la seguridad en dispositivos interconectados.
+</p>
+
+<p>
+En un contexto empresarial, este enfoque puede aplicarse para proteger infraestructuras críticas, prevenir ataques como ransomware y reducir el impacto operativo de incidentes de ciberseguridad.
+</p>
 <hr>
 
 <h2>Conclusiones</h2>
