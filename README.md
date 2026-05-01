@@ -238,7 +238,9 @@ Finalmente, la implementación de modelos de Machine Learning como Random Forest
 <p>
   <strong>1. ¿Además de la reducción de variables, que otras consideraciones se deben tomar para implementar modelos predictivos, algoritmos detectores, etc. en dispositivos IoT?</strong>
 </p>
-
+<p>
+En entornos IoT, la implementación de modelos predictivos y algoritmos de detección presenta desafíos adicionales debido a las limitaciones de hardware y las condiciones operativas de los dispositivos. A diferencia de sistemas tradicionales, estos dispositivos requieren soluciones eficientes, seguras y adaptables que permitan procesar datos en tiempo real sin comprometer el rendimiento ni el consumo de recursos. Por ello, es fundamental considerar los siguientes aspectos:
+</p>
 <ul>
   <li><b>Recursos limitados:</b> Uso de modelos ligeros debido a restricciones de CPU, RAM y almacenamiento.</li>
   
