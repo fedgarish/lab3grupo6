@@ -233,6 +233,34 @@ Finalmente, la implementación de modelos de Machine Learning como Random Forest
 </p>
 
 <hr>
+<h3>Preguntas trabajo final</h3>
+
+<p>
+  <strong>1. ¿Además de la reducción de variables, que otras consideraciones se deben tomar para implementar modelos predictivos, algoritmos detectores, etc. en dispositivos IoT?</strong>
+</p>
+
+<ul>
+  <li><b>Recursos limitados:</b> Uso de modelos ligeros debido a restricciones de CPU, RAM y almacenamiento.</li>
+  
+  <li><b>Procesamiento en tiempo real:</b> Baja latencia para detección inmediata de anomalías.</li>
+  
+  <li><b>Consumo energético:</b> Optimización del uso de energía en dispositivos con batería.</li>
+  
+  <li><b>Seguridad:</b> Protección del modelo y cifrado de datos para evitar ataques.</li>
+  
+  <li><b>Actualización del modelo:</b> Capacidad de reentrenamiento y despliegue remoto (OTA).</li>
+  
+  <li><b>Calidad de datos:</b> Manejo de datos ruidosos y validación en tiempo real.</li>
+  
+  <li><b>Escalabilidad:</b> Funcionamiento en múltiples dispositivos y arquitecturas distribuidas (Edge + Cloud).</li>
+  
+  <li><b>Robustez:</b> Tolerancia a fallos y operación incluso sin conexión.</li>
+  
+  <li><b>Privacidad:</b> Minimización del envío de datos sensibles mediante procesamiento local.</li>
+</ul>
+
+
+<hr>
 <h3>Comentario</h3>
 
 <p>
